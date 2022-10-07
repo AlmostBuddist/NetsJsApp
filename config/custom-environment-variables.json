@@ -1,0 +1,27 @@
+{
+  "app": {
+    "port": "APP_PORT",
+    "base_url": "APP_BASE_URL",
+    "global_prefix": "APP_GLOBAL_PREFIX",
+    "is_enable_swagger": "APP_IS_ENABLE_SWAGGER",
+    "is_enable_logger": "APP_IS_ENABLE_LOGGER",
+    "health": {
+      "is_db_check": "APP_HEALTH_IS_DB_CHECK"
+    }
+  },
+  "db": {
+    "host": "DB_HOST",
+    "port": "DB_PORT",
+    "username": "DB_USERNAME",
+    "password": "DB_PASSWORD",
+    "database": "DB_DATABASE"
+  },
+  "orm": {
+    "settings": {
+      "logging": "ORM_SETTINGS_LOGGING"
+    }
+  },
+  "jwt": {
+    "secret": "JWT_SECRET"
+  }
+}

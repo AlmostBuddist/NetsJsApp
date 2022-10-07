@@ -1,0 +1,3 @@
+export const RANDOM_STRING_DEFAULT_LENGTH = 16;
+export const SALT_DEFAULT_ROUNDS = 13;
+export const HASH_DEFAULT_ROUNDS = 13;
